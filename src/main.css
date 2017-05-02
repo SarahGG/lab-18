@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #1f5a58;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+a {  }
+a:link {  }
+a:active {  }
+a:active {  }
+a:visited {  }
+
+img {  border: 0;  }
+.circleImg {
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+#paralax1 {
+    padding: 20px;
+    background: url(../images/leafBG.png);
+    border-bottom: 3px solid #FFF;
+}
+#paralax2 {
+    padding: 20px;
+    background: url(../images/leatherBG.jpg);
+    border-bottom: 3px solid #FFF;
+}
+#paralax3 {
+    padding: 20px;
+    background: url(../images/snakeBG.jpg);
+    border-bottom: 3px solid #FFF;
+}
+
+#introductionDiv {
+    background: rgba(0,0,0,.5);
+    max-width: 750px;
+    padding: 20px;
+    border-radius: 127px;
+}
+#headShot {
+    width: 200px;
+    height: 200px;
+    border-width: 7px;
+    float: left;
+    margin-right: 10px;
+}
+#Name {
+    margin-left: 30px;
+    margin-bottom: 5px;
+    font-size: 3em;
+    text-align:left;
+    max-width: 700px;
+    border-bottom: 2px solid #fff;
+    border-top-left-radius: 107px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0+75 */
+    background: -moz-linear-gradient(left, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 75%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 75%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 75%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+}
+#descBox {
+    word-spacing: 3px;
+    font-size: 15px;
+    margin-left: 230px;
+    max-width: 450px;
+}
+
+.sectionTitle {
+    font-size: 2em;
+    font-family: "Noto Serif", serif;
+    color: #D35400;
+    text-align: center;
+}
+
+.skillHeader {
+    color: #1f5a58;
+    max-width: 1200px;
+    margin: auto;
+    background: rgba(0,0,0,0.9);
+    padding: 5px;
+    font-size: 3em;
+    border-radius: 20px;
+}
+.skillWrap {
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.skillColumn {
+    margin: 5px;
+    flex: 1 1 auto;
+}
+.skillTitle {
+    background: rgba(255, 255, 255, 0.7);
+    border-bottom: 3px solid #D35400;
+    margin-bottom: 3px;
+}
+.skillListItem {
+    background: rgba(0,0,0,0.9);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 3px;
+    border-radius: 0;
+    transition-duration: 0.3s;
+}
+.skillListItem:hover {
+    background: rgba(211,84,0,0.9);
+    border-radius: 19px;
+    transition-duration: 0.3s;
+}
