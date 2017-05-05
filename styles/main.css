@@ -1,0 +1,192 @@
+html {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background: #1f5a58;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    height: 100%;
+}
+
+a {  }
+a:link {
+    text-decoration: none;
+    border: none;
+}
+a:active {
+    text-decoration: none;
+    border: none;
+}
+a:active {
+    text-decoration: none;
+    border: none;
+}
+a:visited {
+    text-decoration: none;
+    border: none;
+}
+img {  border: 0;  }
+
+#deco-row-1 {
+    padding: 60px 20px;
+    background: url(../images/leafBG.png);
+    border-bottom: 1px solid #FFF;
+    position: relative;
+    z-index: 2;
+    box-shadow: #0b351d 0px 5px 15px;
+}
+#deco-row-2 {
+    background: url(../images/leatherBG.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#deco-row-2-cover {
+    background-color: rgba(120, 66, 18, 0.7);
+    padding: 60px 10px;
+}
+#deco-row-3 {
+    background: #fff url('../images/furBG.jpg');
+    background-size: cover;
+    border-bottom: 1px solid #FFF;
+    position: relative;
+    z-index: 2;
+    box-shadow: #2b240a 0 -5px 15px;
+}
+#deco-row-3-cover {
+    padding: 60px 10px;
+    background-color: rgba(244, 208, 63, 0.5);
+    border-top: 1px solid #FFF;
+    transition-duration: 0.3s;
+}
+#deco-row-3-cover:hover {
+    background-color: rgba(244, 208, 63, 0.3);
+}
+
+#photo-ID {
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    padding: 0;
+    margin:0;
+}
+#name {
+    color: #D35400;
+    padding-left: 10px;
+    font-size: 3em;
+    text-align:left;
+    background: rgba(0,0,0,0.7);
+
+}
+.social-icon {
+    max-height: 20px;
+    max-width: 20px;
+}
+#desc-box {
+    word-spacing: 3px;
+    font-size: 1em;
+    background: rgba(0,0,0,0.7);
+    padding: 10px;
+    line-height: 110%;
+    height: 100%
+}
+
+.section-title {
+    font-size: 1.5em;
+    font-family: "Noto Serif", serif;
+    color: #000;
+    text-align: center;
+}
+
+.skill-title {
+    color: #D35400;
+    letter-spacing: 1px;
+    background: rgba(0,0,0,0.9);
+    padding: 5px;
+    font-size: 2em;
+}
+.skill-subtitle {
+    background: rgba(255, 255, 255, 0.7);
+    color: #D35400;
+    border-bottom: 3px solid #D35400;
+    padding: 0;
+}
+.skill-arrow:hover ~ .skill-list {
+    visibility: inherit;
+    height: auto;
+    transition-duration: 0.3s;
+    font-size: 1em;
+}
+.skill-list {
+}
+.skill-item {
+    background: rgba(0,0,0,0.9);
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+    border-color: #D35400;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    transition-duration: 0.3s;
+
+}
+.skill-item:hover {
+    background: rgba(211,84,0,0.9);
+    transition-duration: 0.3s;
+}
+
+.gutter-5 /*> [class^="col-"], .gutter-5 > [class^=" col-"]*/ {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.top-buffer {
+    margin-top: 10px;
+}
+.no-padding {
+    padding:0;
+}
+
+form {
+    color: #000;
+}
+#shopping-list-bg {
+    background: url('../images/patternBG.png');
+    height: 100%;
+}
+#num-list, #grocery-items {
+    padding: 0;
+    list-style: none;
+    margin-right: 1px;
+}
+#grocery-prices {
+    padding: 0;
+    list-style: none;
+}
+#grocery-items li, #grocery-prices li {
+    text-align: left;
+}
+.list-item {
+    background: rgba(0,0,0,0.9);
+    font-size: 1em;
+    border-bottom: #D35400 solid 1px;
+    padding: 5px;
+}
+.grocery-text {
+    width: 100%;
+    background: rgba(0,0,0,0.9);
+    font-size: 1em;
+    border:0;
+    border-bottom: #D35400 solid 1px;
+    padding: 5px;
+}
+.grocery-button {
+    width: 100%;
+    background: rgba(0,0,0,0.9);
+    font-size: 1em;
+    border:0;
+    border-bottom: #D35400 solid 1px;
+    padding: 5px;
+    color: #D35400;
+}

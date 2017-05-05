@@ -4,87 +4,144 @@
     <meta charset="UTF-8">
     <title>Sarah Guarino</title>
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i|Roboto:400,400i,700,700i" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+
 </head>
 <body>
-<!-- FIXME this is bad fix this  -->
-<div id="paralax1">
-    <div id="introductionDiv">
-        <img src="../images/headShot.JPG" id="headShot" class="circleImg" />
-        <div id="Name" class="sectionTitle">Sarah Guarino</div>
-        <div id="descBox" class="text">
-            I'm an energetic Metro-Detroit Software Engineer with a passion for agile software development and a history of community outreach. I love urban picnics, every dog I've ever met, and working with others. I am happiest when serving my community and those who live within it. Let's make something that changes the way people see the world!
-        </div>
-        <div style="clear:both;height:0;"></div>
-    </div>
-</div>
-<div id="paralax2">
-    <div class="sectionTitle skillHeader">Professional Skills</div>
-    <div class="skillWrap">
-        <!-- Back-End -->
-        <div class="skillColumn">
-            <div class="sectionTitle skillTitle">Back-End</div>
-            <div class="skillListItem">Java/JDOC</div>
-            <div class="skillListItem">JSP/JSTL/JDBC/EL</div>
-            <div class="skillListItem">Spring MVC/Hibernate</div>
-            <div class="skillListItem">MySQL, NoSQL</div>
-            <div class="skillListItem">Microsoft Query</div>
-        </div>
-        <!-- Front-End -->
-        <div class="skillColumn">
-            <div class="sectionTitle skillTitle">Front-End</div>
-            <div class="skillListItem">CSS/CSS3/Sass</div>
-            <div class="skillListItem">HTML/HTML5/XML</div>
-            <div class="skillListItem">JavaScript</div>
-            <div class="skillListItem">JQuery</div>
-            <div class="skillListItem">Wordpress</div>
-        </div>
-        <!-- Process -->
-        <div class="skillColumn">
-            <div class="sectionTitle skillTitle">Process</div>
-            <div class="skillListItem">OOP & TDD Development</div>
-            <div class="skillListItem">IntelliJ, Atom & other IDEs</div>
-            <div class="skillListItem">Process Documentation</div>
-            <div class="skillListItem">SalesForce</div>
-            <div class="skillListItem">Git/GitHub</div>
-            <div class="skillListItem">Apache</div>
-        </div>
-        <!-- Design -->
-        <div class="skillColumn">
-            <div class="sectionTitle skillTitle">Design</div>
-            <div class="skillListItem">Photoshop</div>
-            <div class="skillListItem">Illustrator</div>
-            <div class="skillListItem">Content Editing</div>
-            <div class="skillListItem">Accessible Design</div>
+
+<div id="deco-row-1">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-2 gutter-5 col-md-offset-2">
+                <div class="row gutter-5" id="photo-ID">
+                    <img src="../images/headShot.JPG" style="height:100%;width:100%;border-radius:50%;" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row section-title gutter-5" id="name">
+                    Sarah Guarino
+                    <a href="https://github.com/SarahGG" title="GitHub: SarahGG">
+                        <img class="socialIcon" src="../images/SocialIcons/github-24.png" />
+                    </a>
+                    <a href="https://twitter.com/rawlemons" title="Twitter: @rawlemons">
+                        <img class="socialIcon" src="../images/SocialIcons/twitter-24.png" />
+                    </a>
+                    <a href="http://stackoverflow.com/users/7777700/sarah-guarino" title="Stack Overflow: Sarah Guarino">
+                        <img class="socialIcon" src="../images/SocialIcons/stackoverflow-24.png" />
+                    </a>
+                </div>
+                <div class="row top-buffer gutter-5" id="desc-box">
+                    I'm an energetic Metro-Detroit Software Engineer with a passion for agile software development and a history of community outreach. I love urban picnics, every dog I've ever met, and working with others. I am happiest when serving my community and those who live within it. Let's make something that changes the way people see the world!
+                </div>
+            </div>
         </div>
     </div>
 </div>
-<div id="paralax3">
-    <div class="sectionTitle skillHeader">Personal Skills</div>
-    <div class="skillWrap">
-        <!-- Home-Making -->
-        <div class="skillColumn">
-            <div class="sectionTitle skillTitle">Home-Making</div>
-            <div class="skillListItem">Interior & Exterior Design</div>
-            <div class="skillListItem">Home-Made Italian Cuisine</div>
-            <div class="skillListItem">Home Repair</div>
-            <div class="skillListItem">Gardening</div>
+<div id="deco-row-2">
+    <div id="deco-row-2-cover">
+        <div class="container">
+            <div class="row gutter-5">
+                <div class="col-md-12 section-title skill-title">
+                    Professional Excellence
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-3 gutter-5 top-buffer">
+                    <div class="section-title skill-subtitle">
+                        Back End
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">Java/JDOC</div>
+                        <div class="skill-item">JSP/JSTL/JDBC/EL</div>
+                        <div class="skill-item">Spring MVC/Hibernate</div>
+                        <div class="skill-item">MySQL, NoSQL</div>
+                        <div class="skill-item">Microsoft Query</div>
+                    </div>
+                </div>
+                <div class="col-md-3 gutter-5 top-buffer">
+                    <div class="section-title skill-subtitle">
+                        Front-End
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">CSS/CSS3/Sass</div>
+                        <div class="skill-item">HTML/HTML5/XML</div>
+                        <div class="skill-item">JavaScript</div>
+                        <div class="skill-item">JQuery</div>
+                        <div class="skill-item">Bootstrap</div>
+                    </div>
+                </div>
+                <div class="col-md-3 gutter-5 top-buffer">
+                    <div class="section-title skill-subtitle">
+                        Production
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">OOP & TDD Development</div>
+                        <div class="skill-item">IntelliJ, Atom & other IDEs</div>
+                        <div class="skill-item">Process Documentation</div>
+                        <div class="skill-item">SalesForce</div>
+                        <div class="skill-item">Git/GitHub</div>
+                        <div class="skill-item">Apache</div>
+                    </div>
+                </div>
+                <div class="col-md-3 gutter-5 top-buffer">
+                    <div class="section-title skill-subtitle">
+                        Design
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">Photoshop</div>
+                        <div class="skill-item">Illustrator</div>
+                        <div class="skill-item">Content Editing</div>
+                        <div class="skill-item">Accessible Design</div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- Animal Husbandry -->
-        <div class="skillColumn">
-            <div class="sectionTitle skillTitle">Husbandry</div>
-            <div class="skillListItem">Rehoming, Fostering, and Adoption Services</div>
-            <div class="skillListItem">Reptiles & Amphibians</div>
-            <div class="skillListItem">Mammals and Birds</div>
-            <div class="skillListItem">Farm Livestock</div>
-        </div>
-        <!-- Trade Skills -->
-        <div class="skillColumn">
-            <div class="sectionTitle skillTitle">Trade Skills</div>
-            <div class="skillListItem">Remodeling & Restoration</div>
-            <div class="skillListItem">Re-purposing Materials</div>
-            <div class="skillListItem">Furniture & Cabinetry</div>
-            <div class="skillListItem">Landscaping</div>
+    </div>
+</div>
+<div id="deco-row-3">
+    <div id="deco-row-3-cover">
+        <div class="container">
+            <div class="row gutter-5">
+                <div class="col-md-12 section-title skill-title">
+                    Personal Areas of Expertise
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 gutter-5 top-buffer">
+                    <div class="section-title skill-subtitle">
+                        Home-Making
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">Interior & Exterior Design</div>
+                        <div class="skill-item">Home-Made Italian Cuisine</div>
+                        <div class="skill-item">Home Repair</div>
+                        <div class="skill-item">Gardening</div>
+                    </div>
+                </div>
+                <div class="col-md-4 gutter-5 top-buffer">
+                    <div class="section-title skill-subtitle">
+                        Husbandry
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">Rehoming, Fostering, and Adoption Services</div>
+                        <div class="skill-item">Reptiles & Amphibians</div>
+                        <div class="skill-item">Mammals and Birds</div>
+                        <div class="skill-item">Farm Livestock</div>
+                    </div>
+                </div>
+                <div class="col-md-4 gutter-5 top-buffer">
+                    <div class="section-title skill-subtitle">
+                        Trade Skills
+                    </div>
+                    <div class="skill-list">
+                        <div class="skill-item">Remodeling & Restoration</div>
+                        <div class="skill-item">Re-purposing Materials</div>
+                        <div class="skill-item">Furniture & Cabinetry</div>
+                        <div class="skill-item">Landscaping</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
