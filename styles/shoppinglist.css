@@ -1,0 +1,107 @@
+html {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    background: #000000;
+    height: 100%;
+    background: url('../images/patternBG.png');
+    position: relative;
+}
+.section-title {
+    font-size: 1.5em;
+    font-family: "Noto Serif", serif;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    font-weight: 700;
+    margin: 2px;
+}
+.list-holder {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+.skill-list {
+    background: #fff;
+    padding: 15px;
+    height: 100%;
+    border: 1px solid #000000;
+}
+
+.skill-item {
+    padding: 10px;
+    font-size: 1em;
+    margin: 2px;
+    flex: 1 1 auto;
+    text-align: center;
+    color: #000;
+}
+
+.top-buffer {
+    margin-top: 30px;
+}
+form {
+    color: #000;
+}
+#num-list, #grocery-items {
+    padding: 0;
+    list-style: none;
+    margin-right: 1px;
+}
+#grocery-prices {
+    padding: 0;
+    list-style: none;
+}
+#grocery-items li, #grocery-prices li {
+    text-align: left;
+}
+.list-item {
+    font-size: 1em;
+    border-bottom: #000000 solid 1px;
+    padding: 5px;
+}
+.grocery-text {
+    font-size: 1em;
+    border:0;
+    border-bottom: #000000 solid 1px;
+    margin: 0;
+}
+.grocery-button {
+    font-size: 1em;
+    border:0;
+    border-bottom: #000000 solid 1px;
+    color: #D35400;
+}
+
+.flav {
+    height: 5px;
+}
+.flav-1 {
+    background-color: #DC7633;
+}
+.flav-2 {
+    background-color: #E67E22;
+}
+.flav-3 {
+    background-color: #F39C12;
+}
+.flav-4 {
+    background-color: #F4D03F;
+}
+.flav-5 {
+    background-color: #27AE60;
+}
+.flav-6 {
+    background-color: #27AEA4;
+}
+.flav-7 {
+    background-color: #2775AE;
+}

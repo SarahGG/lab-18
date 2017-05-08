@@ -5,9 +5,9 @@ function printSkills() {
     printLists();
 }
 function loadSkills() {
-    window.backEndSkills = ['Java ', 'JDOC ', 'JSP ', 'JSTL ', 'JDBC ', 'EL ', 'Spring MVC ', 'Hibernate ', 'MySQL ', 'NoSQL ', 'Microsoft Query '];
-    window.frontEndSkills = ['CSS/CSS3 ', 'Sass ', 'HTML/HTML5 ', 'XML ', 'Javascript ', 'JQuery ', 'Bootstrap ', 'DOM '];
-    window.productionSkills = ['OOP ', 'TDD ', 'IntelliJ ', 'Atom ', 'Eclipse ', 'Process Documentation ', 'SalesForce ', 'Git ', 'GitHub ', 'Apache '];
+    window.backEndSkills = ['Java ', 'JDOC ', 'JSP ', 'JSTL ', 'JDBC ', 'EL ', 'Spring MVC ', 'Tomcat', 'Hibernate ', 'MySQL ', 'NoSQL ', 'Microsoft Query '];
+    window.frontEndSkills = ['CSS/CSS3 ', 'Sass ', 'HTML/HTML5 ', 'XML ', 'Javascript ', 'JQuery ', 'Bootstrap ', 'DOM ', 'Mobile-First '];
+    window.productionSkills = ['OOP ', 'TDD ', 'IntelliJ ', 'Atom ', 'Eclipse ', 'Maven ', 'Process Documentation ', 'SalesForce ', 'Git ', 'GitHub ', 'Apache '];
     window.designSkills = ['Photoshop ', 'Illustrator ', 'Content Editing ', 'Accessible Design ', 'UI/UX ', 'Typography '];
     window.homeMakingSkills = ['Interior & Exterior Design ', 'Home-Made Italian Cuisine ', 'Home Repair ', 'Gardening ', 'Baby-Sitting '];
     window.husbandrySkills = ['Rehoming ', 'Fostering ', 'Reptiles ', 'Amphibians ', 'Adoption ', 'Mammals ', 'Birds ', 'Farm Livestock ', 'Enclosure Maintenance ', 'Dog-Sitting '];
@@ -28,7 +28,7 @@ function printList(skillArray, skillList, title) {
 
     // a box to hold each section title and contents
     var skillHolder = document.createElement('div');
-    skillHolder.className = 'skill-list';
+    skillHolder.className = 'skill-cap';
 
     //creating title element
     var titleText = document.createTextNode(title);
@@ -49,6 +49,12 @@ function printList(skillArray, skillList, title) {
         newDiv.appendChild(newSkill);
         skillHolder.appendChild(newDiv);
     }
+
+    // var justAPeriod = document.createTextNode('.');
+    var bottomItem = document.createElement('div');
+    bottomItem.className = 'bottom-item';
+    // bottomBitch.appendChild(justAPeriod);
+    skillHolder.appendChild(bottomItem);
 
     // adds completed list to the column
     parentID.appendChild(skillHolder);

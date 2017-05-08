@@ -5,6 +5,7 @@ body {
     color: #000;
     font-size: 15px;
     font-weight: 400;
+    background: #000000;
 }
 a {  }
 a:link {
@@ -34,7 +35,7 @@ img {  border: 0;  }
     padding: 60px 10px;
 }
 #deco-row-2 {
-    background: url('../images/bigLeatherBG.png') fixed;
+    background: url('../images/cartographer_@2X.png') fixed;
     background-size: cover;
     padding: 60px 10px;
 }
@@ -99,12 +100,7 @@ img {  border: 0;  }
 }
 .skill-list {
     background: #fff;
-    padding: 2px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: flex-start;
+    padding: 4px 2px;
     height: 100%;
 }
 .flav {
@@ -161,33 +157,39 @@ img {  border: 0;  }
 #trade-skill-list .skill-item {
     background-color: #2775AE;
 }
-
 .skill-subtitle {
-    border-bottom: 1px solid #000000;
     padding: 0;
     width: 100%;
     font-weight: 700;
+    margin: 2px;
 }
 #back-end-list .skill-subtitle {
     color: #DC7633;
+    border-bottom: 2px solid #DC7633;
 }
 #front-end-list .skill-subtitle {
     color: #F39C12;
+    border-bottom: 2px solid #F39C12;
 }
 #production-list .skill-subtitle {
     color: #E67E22;
+    border-bottom: 2px solid #E67E22;
 }
 #design-list .skill-subtitle {
     color: #D4AC0D;
+    border-bottom: 2px solid #D4AC0D;
 }
 #home-making-list .skill-subtitle {
     color: #27AE60;
+    border-bottom: 2px solid #27AE60;
 }
 #husbandry-list .skill-subtitle {
     color: #27AEA4;
+    border-bottom: 2px solid #27AEA4;
 }
 #trade-skill-list .skill-subtitle {
     color: #2775AE;
+    border-bottom: 2px solid #2775AE;
 }
 @media (max-device-width: 767px) {
     .skill-title {
@@ -197,6 +199,15 @@ img {  border: 0;  }
         font-size: 1em;
         border: 0;
     }
+}
+.skill-cap {
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 .top-buffer {
@@ -250,36 +261,59 @@ form {
 
 @media (min-device-width: 1200px) { /* extra large styling */
     #deco-row-1, #deco-row-2, #deco-row-3 {
-        min-height: 50vh;
+        min-height: 100vh;
+        padding: 80px 0;
+        border-bottom: 4px solid #000000;
+        box-shadow: none;
     }
     .lg-container {
-        max-width: 980px;
+        max-width: 1000px;
+    }
+    #deco-row-2, #deco-row-3 {
+        width: calc(50% - 2px);
+        display: inline-block;
+        box-shadow: none;
+        border: 0;
+        background-size: auto;
+        background: url(../images/cartographer.png) scroll repeat;
+    }
+    .top-buffer {
+        margin-top:10px;
+    }
+    #photo-ID {
+        margin: auto;
+        margin-bottom: 15px;
+        max-width: 250px;
     }
 }
-
 @media (min-device-width: 992px) and (max-device-width: 1199px) { /* large styling */
     #deco-row-1, #deco-row-2, #deco-row-3 {
-        min-height: 50vh;
     }
     .lg-container {
-        max-width: 980px;
+        max-width: 1000px;
     }
 }
-
 @media (min-device-width: 768px) and (max-device-width: 991px) { /* medium styling */
     #deco-row-1, #deco-row-2, #deco-row-3 {
         min-height: 100vh;
     }
 }
-
 @media (min-device-width: 578px) and (max-device-width: 767px) { /* small styling */
     #deco-row-1, #deco-row-2, #deco-row-3 {
         min-height: 100vh;
     }
 }
-
 @media (max-device-width: 577px) { /* extra small styling */
     #deco-row-1, #deco-row-2, #deco-row-3 {
         min-height: 100vh;
     }
+}
+.bottom-item {
+    width: 100%;
+    height: 50%;
+    padding: 0;
+    line-height: 0;
+    background-image: url('../images/subtle-feathers.png');
+    margin: 2px;
+    flex: 1 1 auto;
 }
